@@ -1,0 +1,10 @@
+include README.md
+include LICENSE
+
+include requirements.txt
+
+recursive-include common/selelogin/utils/seleniums/js *
+recursive-include common/templates *
+recursive-include test *
+
+global-exclude __pycache__ *.py[cod]
